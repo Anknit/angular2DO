@@ -1,0 +1,7 @@
+<div *ngIf="task">
+  <h3>Current Task is : {{task.taskName}}</h3>
+  <div>
+    <label>Enter task</label>
+    <input [(ngModel)]="task.taskName" placeholder="Enter task"  />
+  </div>
+</div>

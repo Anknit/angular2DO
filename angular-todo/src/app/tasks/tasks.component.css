@@ -1,0 +1,6 @@
+li{
+  border:1px solid red;
+}
+li.selected{
+  background:#e9e9e9;
+}
